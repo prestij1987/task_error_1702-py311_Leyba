@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница</title>
+    <script src="logic.js"></script>
+    
+</head>
+
+<body>
+    <h1>Расчет за проезд</h1>
+    <img src="metro.jpg" alt="Картинка метро" width="200px">
+    <form action="proezd.html">
+    <p>
+        <div>
+            <input type="number" id="birth" value='год' placeholder="Год рождения" min="1900" max="2024">год
+            <label for="cena">Выберите тариф</label>
+            <select name="" id="">
+                <option value="Ребенок">ребенок</option>
+                <option value="">студент</option>
+                <option value="">взрослый</option>
+                <option value="">старик</option>
+            </select>
+            <select name="период времени" id="">
+                <option value="час">час</option>
+                <option value="неделя">неделя</option>
+                <option value="месяц">месяц</option>
+                <option value="год">год</option>
+
+            </select>
+        </div>
+    </p>
+    </form>
+    <p>
+        <form action="">
+            <button type="button" name='but' value="жми" onclick="schet()">Кнопка</button>
+        </form>
+    </p>
+    <p id="itog">итого:</p>
+</body>
+</html>
